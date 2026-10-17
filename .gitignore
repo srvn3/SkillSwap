@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# SkillSwap database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secret files and AWS keys
+.env.*
+!.env.example
+*.pem
+*.key
